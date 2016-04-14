@@ -9,7 +9,7 @@ using Core.Entity;
 
 namespace BLL
 {
-    class MovieController
+    public class MovieController
     {
         public List<Movie> GetMovies(DateTime date)
         {
