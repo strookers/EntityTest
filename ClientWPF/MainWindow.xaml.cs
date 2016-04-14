@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Remoting.Messaging;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -12,6 +13,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using BLL;
+using Core;
 
 namespace ClientWPF
 {
@@ -22,7 +25,14 @@ namespace ClientWPF
     {
         public MainWindow()
         {
+            
             InitializeComponent();
+        }
+
+        private void datePicker_CalendarClosed(object sender, RoutedEventArgs e)
+        {
+            MovieController mCtr = new MovieController();
+            txtBox.Text = mCtr.GetMovies(datePicker.DisplayDate)[0].Name;
         }
     }
 }
