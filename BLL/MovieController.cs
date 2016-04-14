@@ -4,6 +4,7 @@ using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data.SqlClient;
 using Core;
 using Core.Entity;
 
@@ -15,10 +16,23 @@ namespace BLL
         {
             using (EntityData db = new EntityData())
             {
-                //List<Movie> movieList = db.Movies.Include("Show").Where(x => x.Shows.Where(x => x.DateTime.Date == date.Date));
-                List<Movie> movieList = db.Movies.Include(s => s.Shows).Where(x => x.Shows.Any(y => DbFunctions.TruncateTime(y.DateTime) == date.Date)).ToList();
+
+                var startDate = date;
+                var endDate = startDate.AddDays(1);
+                var movieList = db.Movies.Include(x => x.Shows).Where(x => x.Shows.Any(y => y.DateTime >= startDate && y.DateTime < endDate)).ToList();
+
+                //var justDate = date.Date;
+                //var movieList = db.Movies.Include(x => x.Shows).Where(y => y.Shows.Any(z => DbFunctions.TruncateTime(z.DateTime) == justDate)).ToList();
 
                 return movieList;
+            }
+        }
+
+        public Movie getMovie()
+        {
+            using (EntityData db = new EntityData())
+            {
+                return db.Movies.FirstOrDefault();
             }
         }
     }

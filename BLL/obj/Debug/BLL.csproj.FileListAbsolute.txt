@@ -8,3 +8,15 @@ C:\Users\mk88\Documents\Datamatiker\Teknologi\Session 9\productRentalSystem\Enti
 C:\Users\mk88\Documents\Datamatiker\Teknologi\Session 9\productRentalSystem\EntityTest\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
 C:\Users\mk88\Documents\Datamatiker\Teknologi\Session 9\productRentalSystem\EntityTest\BLL\obj\Debug\BLL.dll
 C:\Users\mk88\Documents\Datamatiker\Teknologi\Session 9\productRentalSystem\EntityTest\BLL\obj\Debug\BLL.pdb
+C:\Users\micha\Documents\datamatiker\3 sem\EntityTest\BLL\bin\Debug\BLL.dll.config
+C:\Users\micha\Documents\datamatiker\3 sem\EntityTest\BLL\bin\Debug\BLL.dll
+C:\Users\micha\Documents\datamatiker\3 sem\EntityTest\BLL\bin\Debug\BLL.pdb
+C:\Users\micha\Documents\datamatiker\3 sem\EntityTest\BLL\bin\Debug\Core.dll
+C:\Users\micha\Documents\datamatiker\3 sem\EntityTest\BLL\bin\Debug\EntityFramework.dll
+C:\Users\micha\Documents\datamatiker\3 sem\EntityTest\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\micha\Documents\datamatiker\3 sem\EntityTest\BLL\bin\Debug\Core.pdb
+C:\Users\micha\Documents\datamatiker\3 sem\EntityTest\BLL\bin\Debug\EntityFramework.xml
+C:\Users\micha\Documents\datamatiker\3 sem\EntityTest\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\micha\Documents\datamatiker\3 sem\EntityTest\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\micha\Documents\datamatiker\3 sem\EntityTest\BLL\obj\Debug\BLL.dll
+C:\Users\micha\Documents\datamatiker\3 sem\EntityTest\BLL\obj\Debug\BLL.pdb

@@ -8,3 +8,13 @@ C:\Users\mk88\Documents\Datamatiker\Teknologi\Session 9\productRentalSystem\Enti
 C:\Users\mk88\Documents\Datamatiker\Teknologi\Session 9\productRentalSystem\EntityTest\Core\obj\Debug\Core.csprojResolveAssemblyReference.cache
 C:\Users\mk88\Documents\Datamatiker\Teknologi\Session 9\productRentalSystem\EntityTest\Core\obj\Debug\Core.dll
 C:\Users\mk88\Documents\Datamatiker\Teknologi\Session 9\productRentalSystem\EntityTest\Core\obj\Debug\Core.pdb
+C:\Users\micha\Documents\datamatiker\3 sem\EntityTest\Core\bin\Debug\Core.dll.config
+C:\Users\micha\Documents\datamatiker\3 sem\EntityTest\Core\bin\Debug\Core.dll
+C:\Users\micha\Documents\datamatiker\3 sem\EntityTest\Core\bin\Debug\Core.pdb
+C:\Users\micha\Documents\datamatiker\3 sem\EntityTest\Core\bin\Debug\EntityFramework.dll
+C:\Users\micha\Documents\datamatiker\3 sem\EntityTest\Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\micha\Documents\datamatiker\3 sem\EntityTest\Core\bin\Debug\EntityFramework.xml
+C:\Users\micha\Documents\datamatiker\3 sem\EntityTest\Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\micha\Documents\datamatiker\3 sem\EntityTest\Core\obj\Debug\Core.csprojResolveAssemblyReference.cache
+C:\Users\micha\Documents\datamatiker\3 sem\EntityTest\Core\obj\Debug\Core.dll
+C:\Users\micha\Documents\datamatiker\3 sem\EntityTest\Core\obj\Debug\Core.pdb

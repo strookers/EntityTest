@@ -25,14 +25,39 @@ namespace ClientWPF
     {
         public MainWindow()
         {
-            
+
             InitializeComponent();
         }
 
-        private void datePicker_CalendarClosed(object sender, RoutedEventArgs e)
+        private void button_Click(object sender, RoutedEventArgs e)
         {
             MovieController mCtr = new MovieController();
-            txtBox.Text = mCtr.GetMovies(datePicker.DisplayDate)[0].Name;
+
+            String movString = null;
+
+            List<Movie> mList = mCtr.GetMovies(datePicker.DisplayDate);
+
+            if (mList.Count == 0)
+            {
+                txtBox.Text = "Fandt intet";
+            }
+            else
+            {
+
+
+                foreach (Movie mov in mList)
+                {
+                    movString += mov.Name + "\n";
+
+                    foreach (Show show in mov.Shows)
+                    {
+                        movString += " - " + show.DateTime.ToString() + "\n";
+                    }
+
+                }
+
+                txtBox.Text = movString;
+            }
         }
     }
 }

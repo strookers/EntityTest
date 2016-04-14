@@ -1,3 +1,5 @@
+using System.Data.Entity.ModelConfiguration.Conventions;
+using Core;
 namespace Core.Entity
 {
     using System;
